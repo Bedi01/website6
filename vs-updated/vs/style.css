@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px dotted black; */
+}
+
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(media/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: bold;
+    
+}
+
+header{
+    display: flex;
+    height: 100px;
+    width: auto;
+    align-content: center;
+    background-color: white;
+}
+
+.logoh{
+    position: absolute;
+    height: 41px;
+    width: 185px;
+    font-family: Montserrat;
+    display: inline-flex;
+    align-items: center;
+    top: 29px;
+    left: 54px;
+    
+}
+
+
+
+.logoh span{
+    font-weight: 700px;
+    font-size: 34px;
+    padding-left: 5px;
+}
+.logoh img{
+    height: 32px;
+    width: 50px;
+    /* border: 1px solid black; */
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(media/Poppins/Poppins-Medium.ttf);
+}
+
+.infomatics{
+    height: 24px;
+    width: 430px;
+    position: absolute;
+    top: 38px;
+    left: 505px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: content-box;
+}
+
+.words:hover{
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+.vector1{
+    background-image: url(media/Icons/Vector1.png);
+    height: 28px;
+    width: 28px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top:36px;
+    left: 1093px;
+}
+
+.fa-user{
+    /* height: 28px;
+    width: 28px; */
+    position: absolute;
+    top: 36px;
+    left: 1093px;
+    font-size: x-large;
+    /* text-decoration: none; */
+}
+
+#ex{
+    position: absolute;
+    top: 36px;
+    left: 1110px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 36px;
+    left: 1166px;
+    font-size: x-large;
+}
+
+.fa-heart{
+    position: absolute;
+    top: 36px;
+    left: 1239px;
+    font-size: x-large;
+}
+
+.fa-cart-shopping{
+    position: absolute;
+    top: 36px;
+    left: 1312px;
+    font-size: x-large;
+}
+.fa-cart-shopping:hover,.fa-heart:hover,.fa-magnifying-glass:hover,.fa-user:hover{
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+a,a:active,a:visited{
+    color: black;
+}
+
+.banner{
+    height: 717px;
+    width: auto;
+    background-image: url(media/banner.png);
+    background-size: contain;
+}
+
+.in-da-banner{
+    height: 443px;
+    width: 643px;
+    position: absolute;
+    top: 253px;
+    left: 739px;
+    border: 1px dotted black;
+    z-index: 5;
+    border-radius: 10px;
+    background-color: #FFF3E3;
+}
+
+#na{
+
+    position: relative;
+    top: 62px;
+    left: 41px;
+    font-family: Poppins;
+    font-weight: 300;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+
+#hero{
+    display: inline-block;
+
+    position: relative;
+    top: 65px;
+    left: 41px;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #B88E2F;
+
+
+}
+#hero-text{
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: 41px;
+    
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+} 
+
+#pls{
+    height: 74px;
+    width: 222px;
+    padding: 25px, 72px, 25px, 72px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    gap: 10px;
+    background-color: #B88E2F;
+    color: white;
+    border: none;
+    position: relative;
+    top: 130px;
+    left: 41px;
+    letter-spacing: 1px;
+}
+
+#pg2{
+    height: 48px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    display: inline-block;
+    position: relative;
+    left: 543px;
+    top: 57px;
+
+}
+
+#pg3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    /* font-family: Poppins; */
+    font-size: 20px;
+    /* font-weight: 100; */
+    line-height: 30px;
+    position: relative;
+    top: 60px;
+    left: 449px;
+    color: #666666;
+}
+
+
+
+footer{
+    position: absolute;
+    top: 4330px;
+    height: 505px;
+    width: 100%;
+
+    padding: 48px 100px 38px 100px;
+
+
+}
+
+.pt1{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+ul a{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 45px;
+
+
+}
+
+
+.title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.address{
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 285px;
+    margin-top: 50px;
+
+}
+
+
+ul p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #9F9F9F;
+    margin-bottom: 55px;
+
+
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+    overflow: auto;
+
+}
+
+input:active,input:focus,input::after,input::before{
+    outline: none;
+}
+
+ul button{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding: 2px;
+    margin-left: 5px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+hr{
+    opacity: 50%;
+}
+
+#the-end{
+    margin-top: 35px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+
+/* Explore them range */
+
+.range{
+    display: flex;
+    position: absolute;
+    top: 1008px;
+    justify-content: space-evenly; 
+    width: 100%;   
+}
+
+.dinin, .livin,.beddin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.range img{
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.range span{
+    font-family: Poppins;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+
+}
+
